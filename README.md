@@ -15,16 +15,17 @@ APMReportGen is a distributed FastAPI + Celery application designed to process l
 ## 📂 Project Structure (Simplified)
 apm_report_gen/
 ├── apm_report_gen/
-│ ├── api/ # FastAPI routers
-│ ├── tasks/ # Celery tasks (ingestion, aggregation, reporting)
-│ ├── core/ # Business logic (aggregator, preprocessor, PDF utilities)
-│ ├── models/ # Pydantic models
-│ ├── templates/ # PDF report templates
-│ └── celery_app.py # Celery initialization
+│   ├── api/                # FastAPI routers
+│   ├── tasks/              # Celery tasks (ingestion, aggregation, reporting)
+│   ├── core/               # Business logic (aggregator, preprocessor, PDF utilities)
+│   ├── models/             # Pydantic models
+│   ├── templates/          # PDF report templates
+│   └── celery_app.py       # Celery initialization
 ├── docker-compose.yml
 ├── Dockerfile.api
 ├── Dockerfile.worker
 └── README.md
+
 
 
 ## 🧰 Tech Stack
