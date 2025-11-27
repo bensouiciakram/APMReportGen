@@ -13,6 +13,7 @@ APMReportGen is a distributed FastAPI + Celery application designed to process l
 - Fully containerized using Docker & docker-compose  
 
 ## 📂 Project Structure (Simplified)
+```text
 apm_report_gen/
 ├── apm_report_gen/
 │   ├── api/                # FastAPI routers
@@ -25,7 +26,7 @@ apm_report_gen/
 ├── Dockerfile.api
 ├── Dockerfile.worker
 └── README.md
-
+```
 
 
 ## 🧰 Tech Stack
