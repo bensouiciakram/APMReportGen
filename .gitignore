@@ -1,0 +1,68 @@
+# ----------------------
+# Python
+# ----------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pycache/
+*.pytest_cache/
+*.mypy_cache/
+*.coverage
+.coverage.*
+htmlcov/
+.tox/
+.env
+.env.*
+.venv/
+venv/
+env/
+ENV/
+
+# ----------------------
+# Distribution / Packaging
+# ----------------------
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# ----------------------
+# VSCode / IDE
+# ----------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ----------------------
+# Docker
+# ----------------------
+*.log
+*.pid
+docker-compose.override.yml
+docker-compose.override.yml.bak
+*.env
+*.env.*.local
+
+# ----------------------
+# Jupyter / IPython
+# ----------------------
+.ipynb_checkpoints/
+
+# ----------------------
+# Celery / Task Queue
+# ----------------------
+celerybeat-schedule
+celerybeat.pid
+
+# ----------------------
+# Temporary / OS files
+# ----------------------
+*.swp
+*.bak
+*.tmp
+*.DS_Store
+Thumbs.db
